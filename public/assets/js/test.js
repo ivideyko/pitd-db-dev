@@ -17,9 +17,7 @@ $(document).ready(function() {
   
     function initializeRows() {
       accountList.empty();
-  
       var accountsToAdd = [];
-  
       for (var i = 0; i < accounts.length; i++) {
         console.log(accounts[i].id);
         accountsToAdd.push(createNewRow(accounts[i]));
@@ -28,7 +26,6 @@ $(document).ready(function() {
     }
   
     function createNewRow(a) {
-    
       console.log(a);
       var newRow = $("<tr>");
       var newId = $("<th scope='row'>");
