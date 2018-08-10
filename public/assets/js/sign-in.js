@@ -42,9 +42,7 @@ $(document).ready(function() {
   function displayLogin() {
     const loggedIn = $("#sign-in");
     loggedIn.empty();
-    loggedIn.html('<h2>Logged In</h2>Username: ' + localStorage.getItem("username") + '</br>Token: ' + localStorage.getItem("token").substr(0, 50) + '...</br><button id="logout" type="submit" class="btn btn-success submit btn-lg">Log Out</button>');
-
-    // $("#token").text("Token: " + data.token.substr(0, 50) + "...");
+    loggedIn.html('<h2>Logged In</h2><b>Username:</b>&nbsp; ' + localStorage.getItem("username") + '</br><b>Token:</b>&nbsp; ' + localStorage.getItem("token").substr(0, 35) + '...</br><button id="logout" type="submit" class="btn btn-success submit btn-lg">Log Out</button>');
   }
 });
   

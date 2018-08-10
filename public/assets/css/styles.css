@@ -1,6 +1,6 @@
 body {
-  /* background-image: url("../images/bkgd-1.jpg"); */
-  background-repeat: repeat-x;
+  background-image: url("../images/bkgd-1.jpg");
+  background-size: cover;
   background-color: black;
   color: white;
   font-size: 12pt;
@@ -8,28 +8,46 @@ body {
 .form-control {
   width: 200px;
   margin-top: 10px;
-  /* display: inline; */
+  max-height: auto;
+  display: block;
 }
 .table {
-  margin: 30px 0px 25px 0px;
+  margin: 10px 0px 40px 0px;
+  background-color: rgba(0, 0, 0, 0.75)
 }
 h1 {
-  margin-top: 38px;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 170px;
+  font-family: "East Sea Dokdo";
 }
 h2 {
-  margin-bottom: 20px;
+  margin-bottom: 0px;
+  font-size: 85px;
+  font-family: "East Sea Dokdo";
+}
+
+#sign-in {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0px 15px 15px 40px;
+  margin: 0px 150px 50px 150px;
+}
+#sign-up {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 0px 15px 15px 40px;
+  margin: 0px 150px 50px 150px;
 }
 #token {
   max-width: 300px;
 }
-#add-account {
+/* #add-account {
   margin-top: 30px;
   font-size: 16pt;
-  /* display: inline; */
+  display: inline;
 }
 #footer {
   padding-bottom: 20px;
-}
+} */
 button.submit {
-  margin-top: 10px;
+  margin-top: 20px;
 }
