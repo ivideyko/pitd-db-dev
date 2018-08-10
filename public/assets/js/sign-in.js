@@ -29,7 +29,7 @@ $(document).ready(function() {
       console.log(data);
       localStorage.setItem("token", data.token);
       localStorage.setItem("username", data.payload.username);
-      displayLogin();
+      window.location.href = "/";
     });
   }
 
