@@ -6,7 +6,7 @@ body {
   font-size: 12pt;
 }
 .form-control {
-  width: 200px;
+  width: 250px;
   margin-top: 10px;
   max-height: auto;
   display: block;
@@ -20,11 +20,14 @@ h1 {
   margin-bottom: 0px;
   font-size: 170px;
   font-family: "East Sea Dokdo";
+  text-shadow: 5px 10px #000000;
 }
 h2 {
   margin-bottom: 0px;
   font-size: 85px;
   font-family: "East Sea Dokdo";
+  text-shadow: 5px 10px #000000;
+
 }
 
 #sign-in {
